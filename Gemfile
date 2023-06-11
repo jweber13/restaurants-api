@@ -30,6 +30,11 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 gem "redis", "~> 4.0"
 
+# Custom gems
+gem "pundit"
+gem 'simple_token_authentication'
+gem 'faker'
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
